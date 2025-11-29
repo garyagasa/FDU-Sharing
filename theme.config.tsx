@@ -11,14 +11,14 @@ const config: DocsThemeConfig = {
     placeholder: '搜索课程...',
   },
   project: {
-    link: 'https://github.com/你的用户名/FDU-Sharing',
+    link: 'https://github.com/victkk/FDU-Sharing',
   },
-  docsRepositoryBase: 'https://github.com/你的用户名/FDU-Sharing/tree/main',
+  docsRepositoryBase: 'https://github.com/victkk/FDU-Sharing/tree/main',
   footer: {
-    text: (
+    content: (
       <span>
         Made with ❤️ by FDU CS Students | {new Date().getFullYear()} |{' '}
-        <a href="https://github.com/你的用户名/FDU-Sharing" target="_blank">
+        <a href="https://github.com/victkk/FDU-Sharing" target="_blank">
           欢迎贡献
         </a>
       </span>
@@ -27,8 +27,8 @@ const config: DocsThemeConfig = {
   head: (
     <>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta name="description" content="复旦大学计算机学院考试资料分享" />
-      <title>FDU CS 资料共享</title>
+      <meta name="description" content="FDU Sharing" />
+      <title>FDU Sharing</title>
     </>
   ),
   sidebar: {
@@ -39,7 +39,7 @@ const config: DocsThemeConfig = {
     backToTop: true,
   },
   editLink: {
-    text: '在 GitHub 上编辑此页 →'
+    content: '在 GitHub 上编辑此页 →'
   },
   feedback: {
     content: '有问题？提交反馈 →',
