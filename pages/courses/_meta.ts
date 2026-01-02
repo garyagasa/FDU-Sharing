@@ -26,7 +26,8 @@ export default {
   'shujukuyinlun': '🗄️ 数据库引论',
   'moshudianshiyan': '🔧 模数电实验',
   'rengongzhinengjichu': '🤖 人工智能基础',
-  
+  'daishujiegouyushuliluoji': '📚 代数结构与数理逻辑',
+
   // ===== 经济学 =====
   'weiguanjingjixue': '📈 微观经济学',
   'zhengzhijingjixue': '📕 政治经济学',
